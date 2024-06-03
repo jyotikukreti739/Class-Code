@@ -1,0 +1,29 @@
+button:active {
+    background-color: red;
+}
+input:focus {
+    border: 5px dotted blue;
+    background-color: yellow;
+}
+ul li:nth-child(even) {
+    background-color: yellow;
+}
+/*p::before {
+    content: "Note: ";
+    font-weight: bold;
+}*/
+p::first-line {
+    font-weight: bold;
+    color: blue;
+}
+.px1 {
+    background-color: red;
+    width : 100px; 
+}
+.percent1 {
+    background-color: blue;
+    width : 50%; 
+}
+p {
+    font-size: 1em;
+}
